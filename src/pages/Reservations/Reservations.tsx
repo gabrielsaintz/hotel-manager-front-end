@@ -146,6 +146,7 @@ export default function Reservations() {
 						<h1>RESERVAS CADASTRADAS</h1>
 						<SearchBox>
 							<TextFieldStyled
+								sx={{ width: "100%" }}
 								placeholder="digite o id da reserva"
 								defaultValue={SearchValue}
 								type="number"
